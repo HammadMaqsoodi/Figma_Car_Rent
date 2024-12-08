@@ -1,6 +1,7 @@
 
 "use client"
 import React from "react";
+import Image from "next/image";
 
 const Category = () => {
   return (
@@ -18,7 +19,14 @@ const Category = () => {
         </div>
         <p className="text-gray-500 text-sm">Sport</p>
         {/* Car Image */}
-        <img src="/cars1.jpg" alt="Car 1" className="w-full h-[120px] object-contain my-4" />
+        {/* <img src="/cars1.jpg" alt="Car 1" className="w-full h-[120px] object-contain my-4" /> */}
+        <Image
+        src="/cars1.jpg"  
+        alt="Car 1"       
+        width={500}       
+        height={120}      
+        className="w-full h-[120px] object-contain my-4" 
+      />
         {/* Specifications */}
         <div className="flex justify-between text-gray-500 text-sm">
           <span>90L</span>
@@ -39,7 +47,13 @@ const Category = () => {
           <span className="text-gray-500 text-xl">♡</span>
         </div>
         <p className="text-gray-500 text-sm">Sport</p>
-        <img src="cars2.jpg" alt="Car 2" className="w-full h-[120px] object-contain my-4" />
+        <Image
+        src="/cars2.jpg"  
+        alt="Car 1"       
+        width={500}       
+        height={120}      
+        className="w-full h-[120px] object-contain my-4" 
+      />
         <div className="flex justify-between text-gray-500 text-sm">
           <span>80L</span>
           <span>Manual</span>
@@ -58,7 +72,13 @@ const Category = () => {
           <span className="text-gray-500 text-xl">♡</span>
         </div>
         <p className="text-gray-500 text-sm">Sport</p>
-        <img src="cars3.jpg" alt="Car 2" className="w-full h-[120px] object-contain my-4" />
+        <Image
+        src="/cars3.jpg"  
+        alt="Car 1"       
+        width={500}       
+        height={120}      
+        className="w-full h-[120px] object-contain my-4" 
+      />
         <div className="flex justify-between text-gray-500 text-sm">
           <span>80L</span>
           <span>Manual</span>
@@ -78,7 +98,13 @@ const Category = () => {
           <span className="text-gray-500 text-xl">♡</span>
         </div>
         <p className="text-gray-500 text-sm">Sport</p>
-        <img src="cars4.jpg" alt="Car 2" className="w-full h-[120px] object-contain my-4" />
+        <Image
+        src="/cars4.jpg"  
+        alt="Car 1"       
+        width={500}       
+        height={120}      
+        className="w-full h-[120px] object-contain my-4" 
+      />
         <div className="flex justify-between text-gray-500 text-sm">
           <span>80L</span>
           <span>Manual</span>

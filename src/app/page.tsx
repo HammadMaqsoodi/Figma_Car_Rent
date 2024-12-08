@@ -1,7 +1,6 @@
 "use client"
-// import { Navbar } from "@material-tailwind/react";
-import Image from "next/image";
-import Link from "next/link";
+
+
 import Footer from "./component/footer";
 import Cart from "./component/cart";
 import Navbar from "./component/navbar";

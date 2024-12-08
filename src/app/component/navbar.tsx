@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FiSearch, FiSettings } from "react-icons/fi";
 import { AiOutlineHeart, AiOutlineBell } from "react-icons/ai";
-import Link from "next/link";
+
 const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
